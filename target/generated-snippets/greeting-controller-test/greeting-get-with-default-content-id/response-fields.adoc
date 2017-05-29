@@ -1,0 +1,12 @@
+|===
+|Path|Type|Description
+
+|id
+|Number
+|When id is not provided, this field contains the default value
+
+|content
+|String
+|When name is not provided, this field contains the default value
+
+|===

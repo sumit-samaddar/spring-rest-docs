@@ -1,0 +1,118 @@
+= Greeting REST Service API Guide
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+
+= Resources
+
+== Greeting REST Service
+
+The Greeting provides the entry point into the service.
+
+=== Accessing the greeting POST with provided content
+
+==== Request structure
+
+include::{snippets}/greeting-controller-test/greeting-post-with-provided-content-id-as-json/http-request.adoc[]
+
+==== Request fields
+
+include::{snippets}/greeting-controller-test/greeting-post-with-provided-content-id-as-json/request-fields.adoc[]
+
+==== Response fields
+
+include::{snippets}/greeting-controller-test/greeting-post-with-provided-content-id-as-json/response-fields.adoc[]
+
+==== Example response
+
+include::{snippets}/greeting-controller-test/greeting-post-with-provided-content-id-as-json/http-response.adoc[]
+
+==== CURL request
+
+include::{snippets}/greeting-controller-test/greeting-post-with-provided-content-id-as-json/curl-request.adoc[]
+
+The Greeting provides the entry point into the service.
+
+=== Accessing the greeting GET with provided content
+
+==== Request structure
+
+include::{snippets}/greeting-controller-test/greeting-get-with-provided-content/http-request.adoc[]
+
+==== Request parameters
+
+include::{snippets}/greeting-controller-test/greeting-get-with-provided-content/request-parameters.adoc[]
+
+==== Response fields
+
+include::{snippets}/greeting-controller-test/greeting-get-with-provided-content/response-fields.adoc[]
+
+==== Example response
+
+include::{snippets}/greeting-controller-test/greeting-get-with-provided-content/http-response.adoc[]
+
+==== CURL request
+
+include::{snippets}/greeting-controller-test/greeting-get-with-provided-content/curl-request.adoc[]
+
+=== Accessing the greeting GET with default content
+
+==== Request structure
+
+include::{snippets}/greeting-controller-test/greeting-get-with-default-content/http-request.adoc[]
+
+==== Response fields
+
+include::{snippets}/greeting-controller-test/greeting-get-with-default-content/response-fields.adoc[]
+
+==== Example response
+
+include::{snippets}/greeting-controller-test/greeting-get-with-default-content/http-response.adoc[]
+
+==== CURL request
+
+include::{snippets}/greeting-controller-test/greeting-get-with-default-content/curl-request.adoc[]
+
+=== Accessing the greeting GET with provided id and content
+
+==== Request structure
+
+include::{snippets}/greeting-controller-test/greeting-get-with-provided-content-id/http-request.adoc[]
+
+==== Request parameters
+
+include::{snippets}/greeting-controller-test/greeting-get-with-provided-content-id/request-parameters.adoc[]
+
+==== Response fields
+
+include::{snippets}/greeting-controller-test/greeting-get-with-provided-content-id/response-fields.adoc[]
+
+==== Example response
+
+include::{snippets}/greeting-controller-test/greeting-get-with-provided-content-id/http-response.adoc[]
+
+==== CURL request
+
+include::{snippets}/greeting-controller-test/greeting-get-with-provided-content-id/curl-request.adoc[]
+
+=== Accessing the greeting GET with default id and content
+
+==== Request structure
+
+include::{snippets}/greeting-controller-test/greeting-get-with-default-content-id/http-request.adoc[]
+
+==== Response fields
+
+include::{snippets}/greeting-controller-test/greeting-get-with-default-content-id/response-fields.adoc[]
+
+==== Example response
+
+include::{snippets}/greeting-controller-test/greeting-get-with-default-content-id/http-response.adoc[]
+
+==== CURL request
+
+include::{snippets}/greeting-controller-test/greeting-get-with-default-content-id/curl-request.adoc[]
+

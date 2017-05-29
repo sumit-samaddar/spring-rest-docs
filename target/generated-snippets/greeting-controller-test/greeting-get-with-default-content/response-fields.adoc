@@ -1,0 +1,8 @@
+|===
+|Path|Type|Description
+
+|content
+|String
+|When name is not provided, this field contains the default value
+
+|===

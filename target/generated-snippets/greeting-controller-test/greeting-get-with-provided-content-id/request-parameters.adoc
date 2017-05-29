@@ -1,0 +1,10 @@
+|===
+|Parameter|Description
+
+|id
+|Greeting's id target
+
+|name
+|Greeting's name target
+
+|===

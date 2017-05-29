@@ -1,0 +1,4 @@
+[source,bash]
+----
+$ curl 'http://localhost:8080/greeting/abc?id=10029288&name=Everybody' -i
+----

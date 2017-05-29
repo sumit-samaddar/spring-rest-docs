@@ -1,0 +1,7 @@
+[source,bash]
+----
+$ curl 'http://localhost:8080/greeting/abcd' -i -X POST -H 'Content-Type: application/json' -d '{
+  "id" : 23213213,
+  "content" : "Excuse Me I Am A JSON Obj"
+}'
+----
